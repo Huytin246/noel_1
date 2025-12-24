@@ -205,7 +205,7 @@
         bgMusic.loop = true; bgMusic.volume = 1.0;
 
         const loader = new THREE.TextureLoader();
-        const photoFiles = ['./img/a1.jpg', './img/a2.jpg', './img/a3.jpg', './img/a4.jpg'];
+        const photoFiles = ['./img/a1.jpg', './img/a2.jpg', './img/a3.jpg', './img/a4.jpg', './img/a5.jpg','./img/a6.jpg','./img/a7.jpg','./img/a8.jpg'];
         const photoTextures = [];
         photoFiles.forEach((f, i) => photoTextures[i] = loader.load(f));
 
@@ -766,7 +766,7 @@
             lCtx.textAlign = 'center';
             lCtx.shadowColor = "#FF69B4"; // Bóng hồng cho chữ Love
             lCtx.shadowBlur = 40;
-            lCtx.fillText("I Love You", 512, 150);
+            lCtx.fillText("Giáng sinh an lành", 512, 150);
             // -----------------------------
 
             const loveTex = new THREE.CanvasTexture(loveCanvas);
